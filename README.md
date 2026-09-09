@@ -1,11 +1,10 @@
 # products-public
 
-Tech Little Brawta engineering repository for products public.
+Public metadata, support status, release notes and reproducible examples for TLB products.
 
-## Operating boundary
+## Engineering contract
 
-Source code, automation, schemas, tests, technical documentation, and security-as-code belong here. Corporate records, customer records, contracts, credentials, and live secrets do not.
-
-## Status
-
-Repository baseline established 2026-09-08. Capability folders represent the permanent operating architecture; implementation maturity is tracked inside each capability and must not be inferred from folder existence.
+- Main must remain releasable.
+- Secrets and regulated data are prohibited from Git.
+- Changes require automated validation and review.
+- Every production component must define ownership, telemetry, rollback and evidence.
